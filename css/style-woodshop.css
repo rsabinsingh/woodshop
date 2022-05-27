@@ -1,0 +1,525 @@
+/*
+* Riva Theme
+* Created by : Ahmed Essa
+* website : www.ahmedessa.net
+* woodshop version
+*/
+
+
+/* General
+==================================================*/
+
+.btn-yellow {
+    color: #333;
+    background-color: #FCCA46;
+    box-shadow: 0px 0px 25px rgba(252, 202, 70, .9);
+}
+
+.btn-yellow:hover,
+.btn-yellow:focus {
+    color: #333;
+    background-color: #eab939;
+    box-shadow: 0px 0px 25px rgba(252, 202, 70, .9);
+    outline: none;
+}
+
+.btn-white {
+    color: #333;
+    background-color: #fff;
+    box-shadow: 0px 0px 25px rgba(225, 225, 225, .9);
+}
+
+.btn-white:hover,
+.btn-white:focus {
+    color: #333;
+    background-color: #ececec;
+    box-shadow: 0px 0px 30px rgba(225, 225, 225, .9);
+    outline: none;
+}
+
+h5 {
+    color: #FCCA46;
+}
+
+
+/* menu
+==================================================*/
+
+.woodshop-menu-bg {
+    background: rgba(0, 0, 0, .9);
+    padding: 0;
+}
+
+.woodshop-menu-bg .link-hover:before {
+    background: #FCCA46;
+}
+
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+    color: #FCCA46;
+}
+
+
+/* slider
+==================================================*/
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    background-size: cover !important;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.slider-caption {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    z-index: 1
+}
+
+.slider-caption h2,
+.slider-caption p,
+.slider-caption .slider-btn-group {
+    opacity: 0;
+}
+
+.slider-caption h2 {
+    font-size: 50px;
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+.slider-caption p {
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+.slider-caption .slider-btn-group {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+.slider-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .3);
+}
+
+.slider-btn-group a {
+    margin-right: 5px;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background-color: #333;
+}
+
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 3px;
+}
+
+
+/* about section
+==================================================*/
+
+.woodshop-booking {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.black-bg {
+    background: #222;
+    color: #fff;
+}
+
+.woodshop-bg {
+    background: -webkit-linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .6)), url(../img/woodshop/04.jpg);
+    background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .6)), url(../img/woodshop/04.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+}
+
+.form-control:focus,
+.flatpickr-input:focus {
+    border: 2px solid #FCCA46;
+}
+
+.flatpickr-day.today {
+    border-color: #FCCA46;
+}
+
+.flatpickr-day.today:focus,
+.flatpickr-day.today:hover,
+.flatpickr-day.selected,
+.flatpickr-day.selected:focus,
+.flatpickr-day.selected:hover {
+    border-color: #FCCA46;
+    background: #FCCA46;
+    color: #fff;
+}
+
+
+/* services section
+==================================================*/
+
+.services-box i {
+    color: #FCCA46;
+}
+
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+    height: 400px;
+}
+
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    padding: 150px 0;
+    text-align: center;
+}
+
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+
+.video-container video.fillWidth {
+    width: 100%;
+}
+
+a.play-icon {
+    height: 60px;
+    width: 60px;
+    background-color: #FCCA46;
+    box-shadow: 0px 0px 25px rgba(252, 202, 70, .9);
+    display: block;
+    line-height: 60px;
+    border-radius: 50%;
+    color: #333;
+    font-size: 34px;
+    text-align: center;
+    padding-left: 4px;
+    padding-top: 1px;
+    margin: 0 auto;
+}
+
+
+/* team section
+==================================================*/
+
+#team {
+    padding-bottom: 100px;
+}
+
+.yellow-ul li a {
+    color: #333;
+    background-color: #FCCA46;
+    box-shadow: 0px 0px 25px rgba(252, 202, 70, .9);
+}
+
+.yellow-ul li a:hover,
+.yellow-ul li a:focus {
+    color: #333;
+    background-color: #eab939;
+    box-shadow: 0px 0px 25px rgba(252, 202, 70, .9);
+}
+
+
+/* work section
+==================================================*/
+
+.work-section {
+    padding: 50px 0;
+    background: #f5f5f5
+}
+
+.categories {
+    text-align: center;
+}
+
+.portfolio_filter {
+    display: inline-block;
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+.portfolio_filter li {
+    display: inline-block;
+    margin: 10px
+}
+
+.portfolio_filter li a {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #666;
+}
+
+.portfolio_filter li a.active {
+    color: #333;
+    background-color: #FCCA46;
+    box-shadow: 0px 0px 25px rgba(252, 202, 70, .9);
+    padding: 3px 15px;
+    border-radius: 25px;
+}
+
+.portfolio_item h4 {
+    color: #fff;
+}
+
+
+/* testimonial section
+==================================================*/
+
+.testimonial-box-2 {
+    border: 2px solid #eee;
+    padding: 30px;
+    position: relative;
+}
+
+.testimonial-box-2 i {
+    font-size: 30px;
+}
+
+.testimonial-box-2 .img-circle {
+    position: absolute;
+    top: -35px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.testimonial-box-2 h5 {
+    font-size: 13px;
+}
+
+
+/* news section
+==================================================*/
+
+.news-box-date h3 {
+    color: #FCCA46;
+}
+
+
+/* contact section
+==================================================*/
+
+.contact-info-item i {
+    color: #FCCA46;
+}
+
+#cd-zoom-in,
+#cd-zoom-out {
+    background-color: rgba(252, 202, 70, 0.9);
+}
+
+/* inner blog
+==================================================*/
+
+.title-bar::after {
+    border-bottom: 5px solid #FCCA46;
+
+}
+.title-bar a {
+    color: #FCCA46;
+}
+.social-ul li a,
+.resent-widget .alphabet {
+    color: #333;
+    background-color: #FCCA46;
+    box-shadow: 0px 0px 20px rgba(252, 202, 70, .9);
+}
+
+
+.quote-div {
+    border-top: 2px solid #FCCA46;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    color: #333;
+    cursor: default;
+    border-color: #FCCA46;
+    background-color: #FCCA46;
+    box-shadow: 0px 0px 20px rgba(252, 202, 70, .9);
+}
+
+.owl-nav div {
+    color: #333;
+    background-color: #FCCA46;
+    box-shadow: 0px 0px 20px rgba(252, 202, 70, .9);
+}
+.owl-nav div:hover, .owl-nav div:focus {
+    color: #333;
+    background-color: #eab939;
+    box-shadow: 0px 0px 25px rgba(252, 202, 70, .9);
+    outline: none;
+}
+.social-ul li a:hover, .social-ul li a:focus {
+    background-color: #eab939;
+    box-shadow: 0px 0px 25px rgba(252, 202, 70, .9);
+}
+
+
+/* popup
+==================================================*/
+
+.white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 25px;
+    width: auto;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.white-popup h3 {
+    font-size: 27px;
+}
+
+.mfp-zoom-in {}
+
+.mfp-zoom-in .mfp-with-anim {
+    opacity: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+.mfp-zoom-in.mfp-bg {
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.mfp-zoom-in.mfp-ready .mfp-with-anim {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.mfp-zoom-in.mfp-ready.mfp-bg {
+    opacity: 0.8;
+}
+
+.mfp-zoom-in.mfp-removing .mfp-with-anim {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0;
+}
+
+.mfp-zoom-in.mfp-removing.mfp-bg {
+    opacity: 0;
+}
+
+
+/* media
+==================================================*/
+
+@media (max-width: 990px) {
+    .full-height-section {
+        height: 100vh;
+        padding: 0;
+    }
+    .testimonial-box-2 {
+        margin-bottom: 50px;
+    }
+    #testimonials {
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 580px) {
+    .video-container h2 {
+        font-size: 20px;
+    }
+    .slider-caption h2 {
+        font-size: 20px;
+    }
+    .slider-caption p {
+        font-size: 13px;
+    }
+    .slider-caption .btn-md {
+        padding: 5px 18px;
+        font-size: 10px;
+    }
+    #about.flex-box {
+        display: block;
+    }
+    .woodshop-bg.padding-100 {
+        padding: 50px 0px !important;
+    }
+    #services.padding-100 {
+        padding: 50px 0px;
+    }
+    #about .padding-100 {
+        padding: 50px;
+    }
+    .navbar-fixed-top {
+        position: absolute;
+    }
+}
